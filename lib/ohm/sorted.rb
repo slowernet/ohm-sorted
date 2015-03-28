@@ -85,8 +85,8 @@ module Ohm
     end
   end
 
-  if defined?(BasicSet)
-    class SortedSet < BasicSet
+  if defined?(Set)
+    class SortedSet < Set
       include SortedMethods
 
     private
